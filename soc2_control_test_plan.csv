@@ -1,0 +1,16 @@
+Test ID,Control Name,SOC 2 Area,Control Objective,Expected Evidence,Test Procedure,Expected Result,Risk if Control Fails
+CT-001,Multi-Factor Authentication,Logical Access,Ensure user accounts are protected with MFA,MFA configuration screenshot and policy,Review MFA settings and verify coverage for user accounts,Pass,High
+CT-002,Quarterly User Access Review,Logical Access,Ensure user access is reviewed regularly,Access review report and reviewer approval,Verify quarterly review completion and evidence of remediation,Pass,High
+CT-003,Privileged Access Review,Logical Access,Ensure administrator access is limited and reviewed,Privileged account inventory and approval records,Review privileged accounts and confirm recurring access reviews,Pass,High
+CT-004,Centralized Security Logging,Security Monitoring,Ensure security events are centrally collected,SIEM or logging dashboard screenshot,Verify critical systems are sending logs to centralized monitoring,Pass,Medium
+CT-005,Security Alert Monitoring,Security Monitoring,Ensure security alerts are reviewed and escalated,Alert records and incident tickets,Sample alerts and verify investigation and escalation documentation,Pass,Medium
+CT-006,Incident Response Plan,Incident Management,Ensure the organization maintains documented incident procedures,Incident response policy,Review the current incident response plan for required procedures,Pass,High
+CT-007,Incident Response Testing,Incident Management,Ensure incident procedures are tested,Tabletop exercise report and lessons learned,Verify an incident response exercise was completed within the review period,Pass,High
+CT-008,Security Awareness Training,Personnel Security,Ensure employees receive recurring security training,Training completion report,Review employee training records and verify completion,Pass,Medium
+CT-009,Vulnerability Scanning,Vulnerability Management,Ensure systems are regularly scanned for vulnerabilities,Vulnerability scan report,Review scan frequency and confirm critical systems are included,Pass,Medium
+CT-010,Vulnerability Remediation,Vulnerability Management,Ensure vulnerabilities are remediated within defined timelines,Remediation tickets and vulnerability report,Sample vulnerabilities and compare closure dates against remediation targets,Pass,High
+CT-011,Backup Operations,Availability,Ensure critical systems and data are backed up,Backup job logs and backup policy,Review backup schedule and verify successful backup jobs,Pass,High
+CT-012,Backup Restoration Testing,Availability,Ensure backups can be successfully restored,Restore test report,Verify documented restoration testing was performed,Pass,High
+CT-013,Vendor Security Review,Vendor Management,Ensure critical vendors are assessed for security risk,Vendor questionnaire and approval documentation,Review a sample vendor assessment and verify documented approval,Pass,Medium
+CT-014,Employee Termination Access Removal,Logical Access,Ensure terminated users lose access promptly,Termination record and account disablement log,Compare termination time with account disablement time,Pass,High
+CT-015,Firewall Rule Review,Network Security,Ensure firewall rules are periodically reviewed,Firewall rule review report,Verify recurring firewall reviews and documented changes,Pass,Medium
