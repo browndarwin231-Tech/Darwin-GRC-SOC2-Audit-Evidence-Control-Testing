@@ -146,6 +146,17 @@ Darwin-GRC-SOC2-Audit-Evidence-Control-Testing/
 ├── remediation_actions.md
 └── evidence/
 
+## Evidence Screenshots
+
+### SOC 2 Control Test Plan
+![SOC 2 Control Test Plan](evidence/soc2-control-test-plan.png)
+
+### Control Test Results
+![Control Test Results](evidence/control-test-results.png)
+
+### Audit Exceptions
+![Audit Exceptions](evidence/audit-exceptions.png)
+
 ## Skills Demonstrated
 
 - SOC 2
