@@ -1,0 +1,16 @@
+Test ID,Control Name,SOC 2 Area,Test Result,Evidence Status,Exception Identified,Risk Level,Auditor Conclusion,Recommended Action
+CT-001,Multi-Factor Authentication,Logical Access,Pass,Accepted,No,Low,MFA is implemented and operating effectively,Continue periodic MFA coverage reviews
+CT-002,Quarterly User Access Review,Logical Access,Fail,Exception,Yes,High,Access review evidence is incomplete and approval documentation is missing,Establish quarterly reviews with documented approvals and remediation tracking
+CT-003,Privileged Access Review,Logical Access,Fail,Exception,Yes,High,Privileged access reviews are not consistently documented,Perform quarterly privileged access reviews and retain approval evidence
+CT-004,Centralized Security Logging,Security Monitoring,Pass,Accepted,No,Low,Critical systems are sending logs to centralized monitoring,Continue monitoring log source coverage
+CT-005,Security Alert Monitoring,Security Monitoring,Pass,Accepted,No,Low,Sample alerts were investigated and escalated appropriately,Continue documenting investigation and escalation activity
+CT-006,Incident Response Plan,Incident Management,Pass,Accepted,No,Low,A documented incident response plan is in place,Review and update the plan annually
+CT-007,Incident Response Testing,Incident Management,Fail,Exception,Yes,High,No current tabletop exercise evidence was available,Conduct annual incident response exercises and retain results
+CT-008,Security Awareness Training,Personnel Security,Pass,Accepted,No,Low,Employee security awareness completion is documented,Continue recurring training and completion tracking
+CT-009,Vulnerability Scanning,Vulnerability Management,Pass,Accepted,No,Low,Recurring vulnerability scanning is performed,Continue scheduled scanning and coverage reviews
+CT-010,Vulnerability Remediation,Vulnerability Management,Partial,Exception,Yes,Medium,Some high-severity vulnerabilities exceeded remediation targets,Enforce severity-based remediation SLAs and document exceptions
+CT-011,Backup Operations,Availability,Pass,Accepted,No,Low,Backup jobs are completed successfully,Continue monitoring backup success and failures
+CT-012,Backup Restoration Testing,Availability,Fail,Exception,Yes,Medium,No recent restoration testing evidence was provided,Perform quarterly restoration tests and retain recovery evidence
+CT-013,Vendor Security Review,Vendor Management,Partial,Exception,Yes,Medium,Vendor assessment exists but approval evidence is incomplete,Require documented vendor approval before onboarding
+CT-014,Employee Termination Access Removal,Logical Access,Pass,Accepted,No,Low,Sample terminated-user access was removed promptly,Continue validating termination access removal
+CT-015,Firewall Rule Review,Network Security,Pass,Accepted,No,Low,Recurring firewall review evidence was provided,Continue scheduled firewall rule reviews
