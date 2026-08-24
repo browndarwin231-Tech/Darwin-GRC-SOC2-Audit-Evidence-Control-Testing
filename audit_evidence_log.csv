@@ -1,0 +1,16 @@
+Evidence ID,Test ID,Control Name,Evidence Type,Evidence Description,Evidence Received,Reviewer,Review Status,Notes
+EV-001,CT-001,Multi-Factor Authentication,Screenshot,MFA configuration showing account protection,Yes,GRC Analyst,Accepted,Evidence clearly shows MFA enabled
+EV-002,CT-002,Quarterly User Access Review,Report,Quarterly access review report with approvals,Partial,GRC Analyst,Exception,One quarterly review is missing approval documentation
+EV-003,CT-003,Privileged Access Review,Access Report,Privileged account inventory and review evidence,Partial,GRC Analyst,Exception,Recurring review evidence is incomplete
+EV-004,CT-004,Centralized Security Logging,Screenshot,Centralized logging dashboard showing critical systems,Yes,GRC Analyst,Accepted,Logs are being collected centrally
+EV-005,CT-005,Security Alert Monitoring,Incident Ticket,Sample alert investigation and escalation record,Yes,GRC Analyst,Accepted,Alert was documented and escalated appropriately
+EV-006,CT-006,Incident Response Plan,Policy,Current incident response policy,Yes,GRC Analyst,Accepted,Plan includes escalation and response procedures
+EV-007,CT-007,Incident Response Testing,Exercise Report,Tabletop exercise report and lessons learned,No,GRC Analyst,Exception,No current exercise evidence was provided
+EV-008,CT-008,Security Awareness Training,Training Report,Employee security awareness completion report,Yes,GRC Analyst,Accepted,Training completion is documented
+EV-009,CT-009,Vulnerability Scanning,Scan Report,Recent vulnerability scan report,Yes,GRC Analyst,Accepted,Recurring scanning evidence was provided
+EV-010,CT-010,Vulnerability Remediation,Ticket Sample,Vulnerability remediation tickets and closure dates,Partial,GRC Analyst,Exception,Some high-severity findings exceeded target remediation timelines
+EV-011,CT-011,Backup Operations,Backup Log,Backup job completion logs,Yes,GRC Analyst,Accepted,Successful backups were documented
+EV-012,CT-012,Backup Restoration Testing,Restore Report,Quarterly backup restoration test report,No,GRC Analyst,Exception,No recent restore testing evidence was available
+EV-013,CT-013,Vendor Security Review,Questionnaire,Completed vendor security questionnaire and approval,Partial,GRC Analyst,Exception,Vendor assessment exists but approval evidence is incomplete
+EV-014,CT-014,Employee Termination Access Removal,Access Log,Termination and account disablement evidence,Yes,GRC Analyst,Accepted,Account access was removed promptly
+EV-015,CT-015,Firewall Rule Review,Review Report,Firewall rule review documentation,Yes,GRC Analyst,Accepted,Recurring firewall review evidence was provided
